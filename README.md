@@ -2,6 +2,59 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+## How to Run the Application
+
+Follow these steps to run the application locally:
+
+### Prerequisites
+
+- **Node.js** (version 18 or higher recommended)
+- **npm** (comes with Node.js)
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/sumit12co/basicss.git
+cd basicss
+```
+
+### Step 2: Install Dependencies
+
+```bash
+npm install
+```
+
+### Step 3: Run the Development Server
+
+```bash
+npm run dev
+```
+
+This will start the Vite development server. Open your browser and navigate to the URL shown in the terminal (usually `http://localhost:5173`).
+
+### Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start the development server with hot module replacement (HMR) |
+| `npm run build` | Build the application for production |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint to check for code issues |
+
+### Production Build
+
+To create a production-ready build:
+
+```bash
+npm run build
+```
+
+The output will be generated in the `dist` folder. You can preview it using:
+
+```bash
+npm run preview
+```
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
